@@ -1,4 +1,6 @@
 HelloWorldApp::Application.routes.draw do
+  get "hello/sayhi"
+  root :to => 'hello#sayhi'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
